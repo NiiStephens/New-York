@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id = "app">
+    <div class="container"> 
+      <h1>New York Construction Mall Project</h1>
+
+      <h6> This app is powererd by Vue 3 |Axios| Ruby on Rails| Postgresql|</h6>
+    </div>
+
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+  
   }
 }
 </script>
